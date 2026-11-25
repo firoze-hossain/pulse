@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "crates/pulse-core",
+    "crates/pulse-storage",
+    "crates/pulse-render",
+    "crates/pulse-ui",
+    "crates/pulse-app",
+]
+resolver = "2"

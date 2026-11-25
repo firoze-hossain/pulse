@@ -1,0 +1,12 @@
+[package]
+name = "pulse-core"
+version = "1.0.0"
+edition = "2021"
+authors = ["NovaOS Enterprise Architecture Team"]
+description = "Pulse Core: Process management, multi-core CPU, memory, network, and disk telemetry, and filesystem metrics"
+
+[dependencies]
+
+[features]
+default = ["std"]
+std = []

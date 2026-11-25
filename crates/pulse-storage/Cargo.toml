@@ -1,0 +1,13 @@
+[package]
+name = "pulse-storage"
+version = "1.0.0"
+edition = "2021"
+authors = ["NovaOS Enterprise Architecture Team"]
+description = "Pulse Storage: Telemetry serialization, JSON reporting, and system performance audit logging"
+
+[dependencies]
+pulse-core = { path = "../pulse-core" }
+
+[features]
+default = ["std"]
+std = []

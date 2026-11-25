@@ -1,0 +1,14 @@
+[package]
+name = "pulse-ui"
+version = "1.0.0"
+edition = "2021"
+authors = ["NovaOS Enterprise Architecture Team"]
+description = "Pulse UI: Event dispatch, interactive tab switching, process termination, search filtering, and state machine"
+
+[dependencies]
+pulse-core = { path = "../pulse-core" }
+pulse-render = { path = "../pulse-render" }
+
+[features]
+default = ["std"]
+std = []

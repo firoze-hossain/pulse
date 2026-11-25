@@ -1,0 +1,13 @@
+[package]
+name = "pulse-render"
+version = "1.0.0"
+edition = "2021"
+authors = ["NovaOS Enterprise Architecture Team"]
+description = "Pulse Render: 2D software double-buffered vector rasterizer for system processes, rolling multi-core graphs, and filesystem usage"
+
+[dependencies]
+pulse-core = { path = "../pulse-core" }
+
+[features]
+default = ["std"]
+std = []
